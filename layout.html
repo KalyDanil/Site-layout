@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lanh = "ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Сайт-визитка</title>
+</head>
+<body>
+    <main class="main">
+        <img class="main__wd" src="image/wd.svg">
+        <nav class="main__nav nav-item">
+            <a >ГЛАВНАЯ</a>
+            <a >ОБ АВТОРЕ</a>
+            <a >РАБОТЫ</a>
+            <a >ПРОЦЕСС</a>
+            <a >КОНТАКТЫ</a>
+        </nav>
+        <h1 class="main__header"><strong>Дизайн и верстка</strong></h1>
+        <p class="main__textFish textFish">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br>
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой для текстов<br>
+            на латинице с начала XVI века.
+        </p>
+        <input class="main__button button" type="button" value="НАПИСАТЬ МНЕ">
+        <img class="main__laptop" src="image/laptop.svg">
+    </main>
+    <section class="aboutMe">
+        <div class="aboutMe__headerBlock aboutMe-headerBlock">
+            <h2 class="aboutMe-headerBlock__header"><strong>Обо мне</strong></h2>
+            <p class="aboutMe-headerBlock__textFish textFish">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br>
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой для текстов<br>
+                на латинице с начала XVI века.
+            </p>
+        </div>
+        <div class="aboutMe__rectangle rectangle-items">
+            <div class="rectangle-item__projectsNumbers projectsNumbers-flexbox">
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+                <div class="projectsNumbers-flexbox__itemsCover">
+                    <div class="projectsNumbers-flexbox__items">
+                        <img class="flexbox-items__projectsNumbers" src="image/projects_numbers.svg">
+                        <span class="flexbo-items__number rectangle-items__number">40<small>+</small></span>
+                        <span class="flexbox-items__text rectangle-items__text">проектов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutMe__MySkills MySkills-items">
+            <h2 class="MySkills-items__header"><strong>Мои навыки</strong></h2>
+            <p class="MySkills-items__firstText textFish">Adobe Photoshop</p>
+            <p class="MySkills-items__firstGrayLine"></p>
+            <p class="MySkills-items__firstBlueLine"></p>
+            <p class="MySkills-items__secondText textFish">Adobe Photoshop</p>
+            <p class="MySkills-items__secondGrayLine"></p>
+            <p class="MySkills-items__secondBlueLine"></p>
+            <p class="MySkills-items__thridText textFish">Adobe Photoshop</p>
+            <p class="MySkills-items__thridGrayLine"></p>
+            <p class="MySkills-items__thridBlueLine"></p>
+            <img class="MySkills-items__avatar" src="image/avatar.png">
+        </div>
+    </section>
+    <section class="process" id="process">
+        <div class="process__headerBlock process-headerBlock">
+            <h2 class="process-headerBlock__header"><strong>Как я работаю</strong></h2>
+            <p class="process-headerBlock__textFish textFish">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br>
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой для текстов<br>
+                на латинице с начала XVI века.
+            </p>
+        </div>
+        <img class="process__video" onclick = "videoPlayer()" src="image/video.png">
+        <img class="process__playerButton" onclick = "videoPlayer()" src="image/player_button.svg">
+    </section>
+    <section class="works">
+        <figure class="works__gallery works-gallery">
+                <div class="works-gallery__overlay">
+                    <img class="works-gallery__eye" src="image/eye.svg">
+                    <img class="works-gallery__pictures" src="image/picture1.png">
+                </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture2.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture1.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture2.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture2.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture1.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture2.png">
+            </div>
+        </figure>
+        <figure class="works__gallery works-gallery">
+            <div class="works-gallery__overlay">
+                <img class="works-gallery__eye" src="image/eye.svg">
+                <img class="works-gallery__pictures" src="image/picture1.png">
+            </div>
+        </figure>
+    </section>
+    <section class="contacts">
+        <div class="contacts__headerBlock contacts-headerBlock">
+            <h2 class="contacts-headerBlock__header"><strong>Хотите веб-сайт?</strong></h2>
+            <p class="contacts-headerBlock__textFish textFish">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br>
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой для текстов<br>
+                на латинице с начала XVI века.
+            </p>
+        </div>
+        <form class="contacts__form contacts-form">
+            <input class="contacts-form__yourName" type="text" placeholder="Ваше имя">
+            <input class="contacts-form__yourEmail" type="email" placeholder="Ваш e-mail">
+            <textarea class="contacts-form__message" type="text" placeholder="Сообщение"></textarea>
+            <input class="contacts-form__button button" type="button" value="ОТПРАВИТЬ">
+        </form>
+    </section>
+    <footer class="footer">
+        <h3 class="footer__header">Иванов Иван</h3>
+        <p class="footer__smallText">(с) 2018. Все права защищены.</p>
+        <div class="footer__vkBox footer-vkBox">
+            <img src="image/vkicon.svg" style="width: 43.75px; height: 22.82;">
+            <img src="image/vkicon.svg" style="width: 43.75px; height: 22.82;">
+            <img src="image/vkicon.svg" style="width: 43.75px; height: 22.82;">
+        </div>
+    </footer>
+    <script>
+        function videoPlayer() {
+            const main = document.getElementsByTagName("main");
+            const sections = document.getElementsByTagName("section");
+            const footer = document.getElementsByTagName("footer");
+            const processSection = document.getElementById("process");
+            const process__headerBlock = document.querySelector(".process__headerBlock");
+            main[0].classList.toggle("overlay");
+            footer[0].classList.toggle("overlay");
+            for (let section of sections) {
+                section.classList.toggle("overlay");
+            }
+            process__headerBlock.classList.toggle("overlay");
+            processSection.classList.toggle("overlay");
+            processSection.classList.toggle("process__overlay");
+        }
+    </script>
+</body>
+</html>
