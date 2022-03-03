@@ -1,0 +1,466 @@
+@media screen and (min-width: 1281px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    .button {
+        background: #34547A;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .textFish {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        
+        color: #727272;
+    }
+    .overlay {
+        opacity: 0.3;
+    }
+    /* main style start */
+    main {
+        width: 100%;
+
+        background: #EEEFF1;
+    }
+    .main__wd {
+        position: absolute;
+        width: 5%;
+        height: auto;
+        left: 20.9%;
+        top: 57px;
+        margin: 0;
+    }
+    .main__nav {
+        width: 31.8%;
+        padding-left: 46.7%;
+        padding-top: 79px;
+
+        display: flex;
+        justify-content: space-between;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+
+        color: #000000;
+    }
+    .main__flexbox {
+        width: 35%;
+        padding-left: 50.8%;
+        margin-top: 162px;
+        padding-bottom: 146px; 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main-flexbox__header {
+        width: 100%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 250%;
+        line-height: 79px;
+        margin: 0;
+        
+        color: #000000;
+    }
+    .main-flexbox__textFish {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .main-flexbox__button {
+        width: 41.6%;
+        height: 65px;
+    }
+    .main__laptop {
+        position: absolute;
+        width: 18.6%;
+        height: 233.7px;
+        left: 25.3%;
+        top: 271px;
+    }
+    /* main style end */
+    /* aboutMe style start */
+    h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 200%;
+        
+        color: #000000;
+    }
+    .aboutMe {
+        width: 100%;
+    }
+    .aboutMe__headerBlock {
+        width: 37%;
+        height: 147px;
+        padding-left: 31.9%;
+        padding-top: 100px;
+    }
+    .aboutMe-headerBlock__header {
+        width: 74.6%;
+        padding-left: 12.5%;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .aboutMe-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .aboutMe__rectangle {
+        width: 100%;
+        height: 250px;
+        margin-top: 100px;
+
+        background: #34547A;
+    }
+    .rectangle-items__number {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 130%;
+
+        color: #FFFFFF;
+    }
+    .rectangle-items__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+
+        color: #FFFFFF;
+    }
+    .projectsNumbers-flexbox {
+        display: flex;
+        justify-content: space-between;
+        width: 57.7%;
+        height: 50px;
+        padding-left: 21%;
+        padding-top: 100px;
+    }
+    .projectsNumbers-flexbox__items {
+        position: relative;
+        width: 12.9%;
+        height: 100%;
+    }
+    .flexbox-items__projectsNumbers {
+        position: absolute;
+        width: 33%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+    }
+    .flexbo-items__number {
+        position: absolute;
+        left: 49.6%;
+        top: 6%;
+    }
+    .flexbox-items__text {
+        position: absolute;
+        left: 49.6%;
+        top: 64%;
+    }
+    .aboutMe__MySkills {
+        position: relative;
+        width: 59.8%;
+        height: 450px;
+        left: 20.1%;
+        margin-top: 102px;
+        margin-bottom: 101px;
+    }
+    .MySkills-items__header{
+        position: absolute;
+        width: 35%;
+        height: 6.6%;
+        left: 0%;
+        top: 22.6%;
+    }
+    .MySkills-items__firstText {
+        position: absolute;
+        left: 1px;
+        top: 40.4%;
+    }
+    .MySkills-items__firstGrayLine {
+        position: absolute;
+        width: 38.6%;
+        height: 4px;
+        left: 0%;
+        top: 48.2%;
+        
+        background: #C4C4C4;
+    }
+    .MySkills-items__firstBlueLine {
+        position: absolute;
+        width: 30.4%;
+        height: 4px;
+        left: 0%;
+        top: 48.2%;
+
+        background: #34547A;
+        transform: rotate(-0.06deg);
+    }
+    .MySkills-items__secondText {
+        position: absolute;
+        left: 1px;
+        top: 55.7%;
+    }
+    .MySkills-items__secondGrayLine {
+        position: absolute;
+        width: 38.6%;
+        height: 4px;
+        left: 0%;
+        top: 63.5%;
+
+        background: #C4C4C4;
+    }
+    .MySkills-items__secondBlueLine {
+        position: absolute;
+        width: 30.4%;
+        height: 4px;
+        left: 0%;
+        top: 63.5%;
+
+        background: #34547A;
+    }
+    .MySkills-items__thridText {
+        position: absolute;
+        left: 1px;
+        top: 71.1%;
+    }
+    .MySkills-items__thridGrayLine {
+        position: absolute;
+        width: 38.6%;
+        height: 4px;
+        left: 0%;
+        top: 78.8%;
+
+        background: #C4C4C4;
+    }
+    .MySkills-items__thridBlueLine {
+        position: absolute;
+        width: 30.4%;
+        height: 4px;
+        left: 0px;
+        top: 78.8%;
+
+        background: #34547A;
+    }
+    .MySkills-items__avatar {
+        position: absolute;
+        width: 555px;
+        height: 450px;
+        left: 51.7%;
+        top: 0%;
+    }
+    /* aboutMe style end */
+    /* process style start */
+    .process {
+        width: 100%;
+
+        background: #EEEFF1;
+    }
+    .process__overlay {
+        background: rgba(218, 216, 216, 0.1);
+    }
+    .process__headerBlock {
+        width: 37%;
+        height: 147px;
+        padding-left: 31.9%;
+        padding-top: 100px;
+    }
+    .process-headerBlock__header {
+        width: 74.6%;
+        padding-left: 12.6%;
+        text-align: center
+    }
+    .process-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .videoCover {
+        position: relative;
+        width:57.2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 57px;
+        margin-bottom: 28px;
+        padding-bottom: 100px;
+    }
+    .process__video {
+        width: 100%;
+        height: auto;
+    }
+    .process__playerButton {
+        position: absolute;
+        width: 9%;
+        height: auto;
+        left: 45.5%;
+        top: 37.6%;
+    }
+    @media only screen and (min-width: 1921px) {
+        .videoCover {
+            width: 1098.24px;
+        }
+    }
+    /* process style end */
+    /* works style start */
+    .works {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background: rgba(52, 84, 122, 0.8);
+    }
+    .works__gallery {
+        position: relative;
+        margin: 0;
+        margin-bottom: -4px;
+        width: 25%;
+    }
+    .works-gallery__eye {
+        position: absolute;
+        width: 20.8%;
+        height: auto;
+        margin: 0;
+        top: 39.6%;
+        left: 39.6%;
+    }
+    .works-gallery__pictures {
+        position: relative;
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .works-gallery__pictures:hover {
+        opacity: 0.3;
+    }
+    /* works style end */
+    /* contacts style start */
+    .contacts {
+        width: 100%;
+        margin-top: 28px;
+
+        background: #EEEFF1;
+    }
+    .contacts__headerBlock {
+        width: 37%;
+        height: 147px;
+        padding-left: 31.9%;
+        padding-top: 100px;
+    }
+    .contacts-headerBlock__header {
+        width: 74.6%;
+        padding-left: 12.6%;
+        text-align: center
+    }
+    .contacts-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts__form {
+        position: relative;
+        width: 28.1%;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+        padding-bottom: 100px;
+    }
+    .contacts-form__yourName {
+        position: absolute;
+        width: 47.2%;
+        height: 50px;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__yourEmail {
+        position: absolute;
+        left: 52.77%;
+        width: 47.2%;
+        height: 50px;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__message {
+        position: absolute;
+        width: 100%;
+        height: 175px;
+        top: 20%;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__button {
+        position: absolute;
+        width: 35.2%;
+        height: 55px;
+        top: 295px;
+        left: 32.2%;
+        right: 32.2%;
+    }
+    input::placeholder {
+        padding-left: 7.8%;
+        padding-top: 17px;
+    }
+    textarea::placeholder {
+        padding-left: 3.7%;
+        padding-top: 17px;
+    }
+    /* contacts style end */
+    /* footer style start */
+    .footer {
+        position: relative;
+        width: 100%;
+
+        background: #34547A;
+    }
+    .footer__header {
+        position: absolute;
+        left: 21.1%;
+        top: 50px;
+        margin: 0;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 131%;
+        line-height: 25px;
+
+        color: #FFFFFF;
+    }
+    .footer__smallText {
+        position: absolute;
+        left: 21.1%;
+        top: 89px;
+        margin: 0;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81%;
+        line-height: 21px;
+
+        color: #FFFFFF;
+    }
+    .footer__vkBox {
+        display: flex;
+        justify-content: space-between;
+        width: 13%;
+        height: 40px;
+        padding-left: 70.6%;
+        padding-top: 56px;
+        padding-bottom: 55px;
+    }
+    /* footer style end */
+}

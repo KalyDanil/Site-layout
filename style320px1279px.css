@@ -1,0 +1,476 @@
+@media (min-width: 320px) and (max-width: 1280px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    .button {
+        background: #34547A;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .textFish {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        
+        color: #727272;
+    }
+    .overlay {
+        opacity: 0.3;
+    }
+    /* main style start */
+    main {
+        width: 100%;
+    
+        background: #EEEFF1;
+    }
+    .main__wd {
+        position: absolute;
+        width: min(25.6%, 120px);
+        height: auto;
+        left: 5%;
+        top: 22px;
+    }
+    .main__nav {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0;
+    
+        display: flex;
+        justify-content: space-between;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0;
+    
+        color: #000000;
+    }
+    .main__flexbox {
+        width: 80%;
+        margin-top: 51px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 95px; 
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main-flexbox__header {
+        width: 100%;
+        margin: 0;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 200%;
+        text-align: center;
+        
+        color: #000000;
+    }
+    .main-flexbox__textFish {
+        width: 100%;
+        margin-top: 44px;
+        margin-bottom: 44px;
+        text-align: center;
+    }
+    .main-flexbox__button {
+        width: min(70%, 403.2px);
+        height: 62px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main__laptop {
+        position: static;
+        display: block;
+        width: min(79.5%, 616.275px);
+        height: auto;
+        padding-top: 149px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* main style end */
+    /* aboutMe style start */
+    h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 200%;
+        
+        color: #000000;
+    }
+    .aboutMe {
+        width: 100%;
+    }
+    .aboutMe__headerBlock {
+        width: 86.1%;
+        height: 178px;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutMe-headerBlock__header {
+        width: 100%;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .aboutMe-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .aboutMe__rectangle {
+        width: 100%;
+        height: 477px;
+        margin-top: 82px;
+
+        background: #34547A;
+    }
+    .rectangle-items__number {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 130%;
+
+        color: #FFFFFF;
+    }
+    .rectangle-items__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+
+        color: #FFFFFF;
+    }
+    .projectsNumbers-flexbox {
+        display: flex;
+        justify-content: space-between;
+        width: min(100%, 339px);
+        height: 328px;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .projectsNumbers-flexbox__items {
+        position: relative;
+        width: 41.59%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexbox-items__projectsNumbers {
+        position: absolute;
+        width: 50px;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .flexbo-items__number {
+        position: absolute;
+        left: 70px;
+        top: 6%;
+    }
+    .flexbox-items__text {
+        position: absolute;
+        left: 70px;
+        top: 64%;
+    }
+    .aboutMe__MySkills {
+        position: relative;
+        width: 90.4%;
+        height: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 102px;
+        margin-bottom: 101px;
+    }
+    .MySkills-items__header{
+        position: absolute;
+        width: 100%;
+        top: 373px;
+        text-align: center;
+    }
+    .MySkills-items__firstText {
+        position: absolute;
+        left: 1px;
+        top: 453px;
+    }
+    .MySkills-items__firstGrayLine {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0%;
+        top: 488px;
+        
+        background: #C4C4C4;
+    }
+    .MySkills-items__firstBlueLine {
+        position: absolute;
+        width: 78.4%;
+        height: 4px;
+        left: 0%;
+        top: 488px;
+
+        background: #34547A;
+        transform: rotate(-0.06deg);
+    }
+    .MySkills-items__secondText {
+        position: absolute;
+        left: 1px;
+        top: 522px;
+    }
+    .MySkills-items__secondGrayLine {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0%;
+        top: 557px;
+
+        background: #C4C4C4;
+    }
+    .MySkills-items__secondBlueLine {
+        position: absolute;
+        width: 78.4%;
+        height: 4px;
+        left: 0%;
+        top: 557px;
+
+        background: #34547A;
+    }
+    .MySkills-items__thridText {
+        position: absolute;
+        left: 1px;
+        top: 591px;
+    }
+    .MySkills-items__thridGrayLine {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0%;
+        top: 626px;
+
+        background: #C4C4C4;
+    }
+    .MySkills-items__thridBlueLine {
+        position: absolute;
+        width: 78.4%;
+        height: 4px;
+        left: 0px;
+        top: 626px;
+
+        background: #34547A;
+    }
+    .MySkills-items__avatar {
+        position: static;
+        display: block;
+        width: min(100%, 339px);
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* aboutMe style end */
+    /* process style start */
+    .process {
+        width: 100%;
+
+        background: #EEEFF1;
+    }
+    .process__overlay {
+        background: rgba(218, 216, 216, 0.1);
+    }
+    .process__headerBlock {
+        width: 86.1%;
+        height: 170px;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .process-headerBlock__header {
+        width: 100%;
+        text-align: center
+    }
+    .process-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .videoCover {
+        position: relative;
+        width:90.4%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 57px;
+        margin-bottom: 34px;
+        padding-bottom: 91px;
+    }
+    .process__video {
+        width: 100%;
+        height: auto;
+    }
+    .process__playerButton {
+        position: absolute;
+        width: 22.1%;
+        height: auto;
+        left: 38.64%;
+        top: 20.72%;
+    }
+    /* process style end */
+    /* works style start */
+    .works {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background: rgba(52, 84, 122, 0.8);
+    }
+    .works__gallery {
+        position: relative;
+        margin: 0;
+        margin-bottom: -4px;
+        width: 50%;
+    }
+    .works-gallery__eye {
+        position: absolute;
+        width: 20.8%;
+        height: auto;
+        margin: 0;
+        top: 39.6%;
+        left: 39.6%;
+    }
+    .works-gallery__pictures {
+        position: relative;
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .works-gallery__pictures:hover {
+        opacity: 0.3;
+    }
+    /* works style end */
+    /* contacts style start */
+    .contacts {
+        width: 100%;
+        margin-top: 34px;
+        margin-bottom: -34px;
+
+        background: #EEEFF1;
+    }
+    .contacts__headerBlock {
+        width: 85.86%;
+        height: 170px;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacts-headerBlock__header {
+        width: 100%;
+        text-align: center
+    }
+    .contacts-headerBlock__textFish {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts__form {
+        position: relative;
+        width: 91.2%;
+        height: 421px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 48px;
+        padding-bottom: 100px;
+    }
+    .contacts-form__yourName {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__yourEmail {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 72px;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__message {
+        position: absolute;
+        width: 100%;
+        height: 175px;
+        top: 143px;
+
+        background: #FFFFFF;
+        border: none;
+    }
+    .contacts-form__button {
+        position: absolute;
+        width: 55.54%;
+        height: 55px;
+        top: 366px;
+        left: 22.23%;
+        right: 22.23%;
+    }
+    input::placeholder {
+        padding-left: 20px;
+        padding-top: 17px;
+    }
+    textarea::placeholder {
+        padding-left: 20px;
+        padding-top: 17px;
+    }
+    /* contacts style end */
+    /* footer style start */
+    .footer {
+        position: relative;
+        width: 100%;
+
+        background: #34547A;
+    }
+    .footer__header {
+        position: static;
+        width: 100%;
+        padding-top: 50px;
+        margin-bottom: 20px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 131%;
+        line-height: 25px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .footer__smallText {
+        position: static;
+        width: 100%;
+        margin-bottom: 38.59px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81%;
+        line-height: 21px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .footer__vkBox {
+        display: flex;
+        justify-content: space-between;
+        width: 46.66%;
+        height: 40px;
+        padding-bottom: 39px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* footer style end */
+}
